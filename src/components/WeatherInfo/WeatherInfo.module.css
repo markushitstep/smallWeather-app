@@ -1,0 +1,28 @@
+.weather{
+    background: linear-gradient( #3166ac , rgba(255, 255, 255, 0.356) 100%), #1947ac;
+    color: white;
+}
+.current{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.current_city{
+    font-size: 30px;
+}
+.current_temperature{
+    font-size: 40px;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+.details_item{
+    flex: 1;
+    margin-bottom: 20px;
+}
+.details_name{
+    margin-bottom: 5px;
+}
+.details_value{
+    font-size: 1.5em;
+}
